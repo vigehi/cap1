@@ -162,7 +162,7 @@ const episodestats = async () => {
     count += 1;
   });
 
-  counter.innerText = `(${count * 2})`;
+  //counter.innerText = `(${count * 2})`;
   counter.style.color = 'red';
 };
 
