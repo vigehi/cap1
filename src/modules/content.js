@@ -3,7 +3,7 @@ import episodelikes from './episodelikes.js';
 
 const commpopup = document.getElementById('popup');
 let count = 0;
-const counter = document.getElementById('count');
+
 const episodecards = document.getElementById('container');
 let currentValue = 0;
 const appId = 'KM960h36MEAZF5DO9Wvb';
@@ -66,7 +66,7 @@ const postComment = async (itemId) => {
   return false;
 };
 
-const closePopupModal = () => {
+const closepopupModal = () => {
   const closebtn = document.querySelector('#close');
   closebtn.addEventListener('click', (e) => {
     e.preventDefault();
@@ -114,7 +114,7 @@ const showcommpopup = async () => {
 
       commpopup.innerHTML = modal;
       commpopup.style.display = 'block';
-      closePopupModal();
+      closepopupModal();
 
       const cmntBtn = document.querySelector('.new-comment');
       cmntBtn.addEventListener('click', () => {
@@ -126,6 +126,7 @@ const showcommpopup = async () => {
 
 // Render all episodes card
 const episodestats = async () => {
+  const counter = document.getElementById('count');
   const episodeArray = await fetchAPIdata();
   episodeArray.slice(0, 10).forEach((episode) => {
     episodelikes().then((res) => {
