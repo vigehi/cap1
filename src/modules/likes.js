@@ -1,5 +1,5 @@
 /* eslint-disable linebreak-style */
-import fetchAPIdata from './episodes';
+import fetchAPIdata from './episodes.js';
 import postLike from './postlikes.js';
 
 const likepisode = async () => {

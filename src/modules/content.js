@@ -153,8 +153,8 @@ const episodestats = async () => {
             <p>${`${episode.summary.substring(0, 80)} ...`}</p>
           </div>
             <button type="button" class="comment-btn" id="${episodeArray.indexOf(
-        episode,
-      )}">Read more & comments</button>
+    episode,
+  )}">Read more & comments</button>
         </div>`;
       showcommpopup();
     });
@@ -162,7 +162,7 @@ const episodestats = async () => {
     count += 1;
   });
 
-  //counter.innerText = `(${count * 2})`;
+  counter.innerText = `(${count * 2})`;
   counter.style.color = 'red';
 };
 
