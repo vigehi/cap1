@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name :  Pokemons
+# Project Name :  Episodes
 
-> In this project we are making a Pokemons using an external API's
+> In this project we are making a Episoes using an external API's
 >
 >
 > In order to achieve this project I used some resources and technologies listed below :
