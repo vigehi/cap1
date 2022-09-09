@@ -17,7 +17,7 @@
 - Library : `Jest` 
 - Technologies used : Github, Git and Linters
 
-## Live Demo (not avialable)
+## Live Demo (IF available)
 
 Click [Here] To open the live demo
 
