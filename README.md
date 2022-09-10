@@ -20,7 +20,8 @@
 
 ## Live Demo (IF available)
 
-Click [Here](https://vigehi.github.io/cap1/dist/) To open the live demo
+Click [Here](https://vigehi.github.io/cap1/dist/) To open the live demo 
+[loom](https://www.loom.com/share/52c794a788354601b7f29874d0d582b0)
 
 ## Getting Started
 
